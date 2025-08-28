@@ -1,0 +1,9 @@
+{
+  "deploymentTarget": "13",
+  "dependencies-pods": [ 
+  	{
+  		"name": "Stripe",
+		"version": "24.16.0"
+  	}
+  ]
+}

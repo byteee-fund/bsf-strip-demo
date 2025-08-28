@@ -1,0 +1,38 @@
+
+// import CardMultilineWidget from 'com.stripe.android.view.CardMultilineWidget';
+
+export type MyApiErrorCode = number;
+
+export interface MyApiFail {
+  errSubject: string;
+  errCode: MyApiErrorCode;
+  errMsg: string;
+}
+
+export type MyApiResult = {
+  fieldA: number;
+  fieldB: boolean;
+  fieldC: string;
+}
+
+export type MyApiOptions = {
+  paramA: boolean;
+  success?: (res: MyApiResult) => void;
+  fail?: (res: MyApiFail) => void;
+  complete?: (res: MyApiResult | MyApiFail) => void;
+}
+
+export type MyApi = (options: MyApiOptions) => void;
+export type MyApiSync = (paramA: boolean) => MyApiResult;
+
+
+
+export type ConfirmCardPaymentOptions = {
+  secretKey : string
+  cardInputWidget: any
+  stripeAccountId?: string
+  returnUrl?: string
+  onSuccess ?: () => void
+  onFailure ?: (res : MyApiFail) => void
+  onCancel ?: () => void
+}

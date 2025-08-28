@@ -1,0 +1,89 @@
+{
+    "id": "bsf-stripe-alipay",
+    "name": "原生Stripe支付宝支付 - UTS插件",
+    "displayName": "原生Stripe支付宝支付 - UTS插件",
+    "version": "1.0.0",
+    "description": "基于原生Stripe Connect API创建的支付宝支付 - UTS插件",
+    "keywords": [
+        "stripe",
+        "uts",
+        "alipay",
+        "pay",
+        "支付",
+        "插件"
+    ],
+    "dcloudext": {
+        "type": "uts",
+        "sale": {
+            "regular": {
+                "price": "199.00"
+            },
+            "sourcecode": {
+                "price": "399.00"
+            }
+        },
+        "contact": {
+            "qq": "281674669"
+        },
+        "declaration": {
+            "ads": "",
+            "data": "",
+            "permissions": ""
+        },
+        "npmurl": ""
+    },
+    "uni_modules": {
+        "dependencies": [],
+        "encrypt": [],
+        "platforms": {
+            "cloud": {
+                "tcb": "u",
+                "aliyun": "u",
+                "alipay": "u"
+            },
+            "client": {
+                "Vue": {
+                    "vue2": "y",
+                    "vue3": "y"
+                },
+                "App": {
+                    "app-android": "y",
+                    "app-ios": "y",
+                    "app-harmony": "u"
+                },
+                "H5-mobile": {
+                    "Safari": "u",
+                    "Android Browser": "u",
+                    "微信浏览器(Android)": "u",
+                    "QQ浏览器(Android)": "u"
+                },
+                "H5-pc": {
+                    "Chrome": "u",
+                    "IE": "u",
+                    "Edge": "u",
+                    "Firefox": "u",
+                    "Safari": "u"
+                },
+                "小程序": {
+                    "微信": "u",
+                    "阿里": "u",
+                    "百度": "u",
+                    "字节跳动": "u",
+                    "QQ": "u",
+                    "钉钉": "u",
+                    "快手": "u",
+                    "飞书": "u",
+                    "京东": "u"
+                },
+                "快应用": {
+                    "华为": "u",
+                    "联盟": "u"
+                }
+            }
+        }
+    },
+    "repository": "https://github.com/byteee-fund/bsf-stripe-alipay-demo",
+    "engines": {
+        "HBuilderX": "^3.6.8"
+    }
+}

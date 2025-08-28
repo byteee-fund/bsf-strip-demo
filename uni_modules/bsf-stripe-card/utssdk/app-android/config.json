@@ -1,0 +1,8 @@
+{
+  "minSdkVersion": "21",
+  "dependencies": [
+  		"com.stripe:stripe-android:20.32.0",
+		  "com.google.android.material:material:1.9.0",
+		  "androidx.activity:activity:1.7.2"
+  	]
+}
